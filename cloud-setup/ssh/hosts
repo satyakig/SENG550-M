@@ -1,0 +1,13 @@
+127.0.0.1       localhost
+10.1.1.22       satyaki-master
+10.1.2.167      satyaki-1
+10.1.3.187      satyaki-2
+10.1.3.151      satyaki-3
+
+# The following lines are desirable for IPv6 capable hosts
+::1 ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+ff02::3 ip6-allhosts
