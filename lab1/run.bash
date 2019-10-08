@@ -20,6 +20,8 @@ echo "jane.txt"
 hdfs dfs -copyFromLocal ./jane.txt /${LAB_DIR}/text/
 echo "moby.txt"
 hdfs dfs -copyFromLocal ./moby.txt /${LAB_DIR}/text/
+echo "all.txt"
+hdfs dfs -copyFromLocal ./all.txt /${LAB_DIR}/text/
 cd ..
 
 
@@ -77,17 +79,17 @@ echo -e "\nStarting on Question 4..."
 cd ex4/
 hdfs dfs -mkdir hdfs://$HOSTNAME:9000/${LAB_DIR}/ex4/
 ${HADOOP_RUN} \
-  -D stream.map.output.field.separator=. \
-  -D stream.num.map.output.key.fields=2 \
-  -D mapreduce.map.output.key.field.separator=. \
-  -D mapreduce.partition.keypartitioner.options=-k1,1 \
+  # -D stream.map.output.field.separator=. \
+  # -D stream.num.map.output.key.fields=2 \
+  # -D mapreduce.map.output.key.field.separator=. \
+  # -D mapreduce.partition.keypartitioner.options=-k1,1 \
   -D mapreduce.job.reduces=27 \
   -files ./mapper.py,./reducer.py \
-  -input /${LAB_DIR}/text/ \
+  -partitioner org.apache.hadoop.mapred.lib.KeyFieldBasedPartitioner \
+  -input /${LAB_DIR}/text/test.txt \
   -output /${LAB_DIR}/ex4/output \
   -mapper ./mapper.py \
-  -reducer ./reducer.py \
-  -partitioner org.apache.hadoop.mapred.lib.KeyFieldBasedPartitioner
+  -reducer ./reducer.py
 hdfs dfs -copyToLocal /${LAB_DIR}/ex4/output ./
 hadoop fs -getmerge /${LAB_DIR}/ex4/output/ results.txt
 echo -e "Partial output:"

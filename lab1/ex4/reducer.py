@@ -8,7 +8,7 @@ prev_key = None
 tot_count = 0
 
 for line in sys.stdin:
-    first, word = line.strip().split('.')
+    first, word = line.strip().split()
 
     if prev_key is None:
         prev_key = word

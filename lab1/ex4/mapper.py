@@ -16,9 +16,37 @@
 # Each reducer will get all the words that starts with a specific letter
 # The final output will have to be computed separately, using hadoop -getmerge will not give us the final answer
 
-import os
 import sys
 import re
+
+alphabets = {
+    'a': 1,
+    'b': 2,
+    'c': 3,
+    'd': 4,
+    'e': 5,
+    'f': 6,
+    'g': 7,
+    'h': 8,
+    'i': 9,
+    'j': 10,
+    'k': 11,
+    'l': 12,
+    'm': 13,
+    'n': 14,
+    'o': 15,
+    'p': 16,
+    'q': 17,
+    'r': 18,
+    's': 19,
+    't': 20,
+    'u': 21,
+    'v': 22,
+    'w': 23,
+    'x': 24,
+    'y': 25,
+    'z': 26,
+}
 
 for line in sys.stdin:
     line = line.strip().lower()
@@ -30,5 +58,7 @@ for line in sys.stdin:
     for word in words:
         first = word[0]
         if first.isdigit():
-            first = '0'
-        print('%s.%s' % (first, word))
+            first = 0
+        else:
+            first = alphabets[first]
+        print('%s\t%s' % (first, word))
