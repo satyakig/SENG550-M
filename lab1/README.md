@@ -1,14 +1,17 @@
 # SENG 550 - Assignment 1
 
-## By: Satyaki Ghosh, 10077685
+## Satyaki Ghosh, 10077685
 
 1. The solutions to each problem is in their respective folders e.g. ex1 to ex4.
 
+   - The results for each question is in their respective folder in the `results.txt` file
+
 2. There is a `text` folder that contains all the text files used for this assignment.
 
-3. There is a `run.bash` script that can be executed to setup hadoop for this assignment
+3. There is a `run.bash` script that can be executed to setup hadoop and the hdfs for this assignment
    and compute the results for **ALL** questions in this assignment.
 
+   - Please copy the whole whole `lab1` folder onto master node and then you can just run the bash script
    - This script assumes a similar setup to what we did in class for it to work
      - It _should_ work out of the box without requiring any changes
    - The final output for each question will be stored in their respective folder
@@ -78,5 +81,4 @@ zoroaster	1
 zounds	16
 zwaggered	1
 zwounds	7
-
 ```
