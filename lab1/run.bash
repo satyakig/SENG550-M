@@ -20,8 +20,6 @@ echo "jane.txt"
 hdfs dfs -copyFromLocal ./jane.txt /${LAB_DIR}/text/
 echo "moby.txt"
 hdfs dfs -copyFromLocal ./moby.txt /${LAB_DIR}/text/
-echo "dummy.txt"
-hdfs dfs -copyFromLocal ./dummy.txt /${LAB_DIR}/text/
 cd ..
 
 
@@ -82,16 +80,23 @@ ${HADOOP_RUN} \
   -D stream.num.map.output.key.fields=2 \
   -D mapreduce.map.output.key.field.separator=. \
   -D mapreduce.partition.keypartitioner.options=-k1,1 \
-  -D mapreduce.job.reduces=4 \
+  -D mapreduce.job.reduces=27 \
   -files ./mapper.py,./reducer.py \
   -partitioner org.apache.hadoop.mapred.lib.KeyFieldBasedPartitioner \
-  -input /${LAB_DIR}/text/ \
+  -input /${LAB_DIR}/text/shakespeare.txt \
   -output /${LAB_DIR}/ex4/output \
   -mapper ./mapper.py \
   -reducer ./reducer.py
-hdfs dfs -copyToLocal /${LAB_DIR}/ex4/output ./
-cat output/part-00001 output/part-00002 output/part-00003 output/part-00000 > results.txt
-rm -r output/
+hadoop fs -getmerge /${LAB_DIR}/ex4/output/part-00015 /${LAB_DIR}/ex4/output/part-00016 \
+/${LAB_DIR}/ex4/output/part-00017 /${LAB_DIR}/ex4/output/part-00018 /${LAB_DIR}/ex4/output/part-00019 \
+/${LAB_DIR}/ex4/output/part-00020 /${LAB_DIR}/ex4/output/part-00021 /${LAB_DIR}/ex4/output/part-00021 \
+/${LAB_DIR}/ex4/output/part-00022 /${LAB_DIR}/ex4/output/part-00023 /${LAB_DIR}/ex4/output/part-00024 \
+/${LAB_DIR}/ex4/output/part-00025 /${LAB_DIR}/ex4/output/part-00026 /${LAB_DIR}/ex4/output/part-00000 \
+/${LAB_DIR}/ex4/output/part-00001 /${LAB_DIR}/ex4/output/part-00002 /${LAB_DIR}/ex4/output/part-00003 \
+/${LAB_DIR}/ex4/output/part-00004 /${LAB_DIR}/ex4/output/part-00005 /${LAB_DIR}/ex4/output/part-00006 \
+/${LAB_DIR}/ex4/output/part-00007 /${LAB_DIR}/ex4/output/part-00008 /${LAB_DIR}/ex4/output/part-00009 \
+/${LAB_DIR}/ex4/output/part-00010 /${LAB_DIR}/ex4/output/part-00011 /${LAB_DIR}/ex4/output/part-00012 \
+/${LAB_DIR}/ex4/output/part-00013 /${LAB_DIR}/ex4/output/part-00014 results.txt
 echo -e "Partial output:"
 tail results.txt
 cd ..

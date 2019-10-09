@@ -1,5 +1,5 @@
-0	dummy.txt, iliad.txt, jane.txt
-1	dummy.txt, iliad.txt, jane.txt, moby.txt, shakespeare.txt
+0	iliad.txt, jane.txt
+1	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 10	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 100	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 1000	shakespeare.txt
@@ -253,7 +253,7 @@
 1f5	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 1f6	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 1st	moby.txt
-2	dummy.txt, iliad.txt, jane.txt, moby.txt, shakespeare.txt
+2	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 20	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 200	iliad.txt, jane.txt, shakespeare.txt
 2000	moby.txt
@@ -384,7 +384,7 @@
 2d	shakespeare.txt
 2nd	moby.txt
 2s	shakespeare.txt
-3	dummy.txt, iliad.txt, jane.txt, moby.txt, shakespeare.txt
+3	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 30	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 300	iliad.txt, jane.txt, shakespeare.txt
 304	iliad.txt, jane.txt, shakespeare.txt
@@ -439,7 +439,7 @@
 396	shakespeare.txt
 399	iliad.txt, jane.txt
 3d	moby.txt
-4	dummy.txt, iliad.txt, jane.txt, moby.txt, shakespeare.txt
+4	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 40	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 400	shakespeare.txt
 4000	moby.txt
@@ -495,7 +495,7 @@
 4d	shakespeare.txt
 4th	moby.txt
 4to	iliad.txt, jane.txt
-5	dummy.txt, iliad.txt, jane.txt, moby.txt, shakespeare.txt
+5	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 50	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 500	moby.txt, shakespeare.txt
 5000	iliad.txt, jane.txt, moby.txt, shakespeare.txt
@@ -545,7 +545,7 @@
 5961887	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 5s	shakespeare.txt
 5th	moby.txt
-6	dummy.txt, iliad.txt, jane.txt, moby.txt, shakespeare.txt
+6	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 60	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 600	shakespeare.txt
 60000	moby.txt
@@ -595,7 +595,7 @@
 691	shakespeare.txt
 696	shakespeare.txt
 6d	shakespeare.txt
-7	dummy.txt, iliad.txt, jane.txt, moby.txt, shakespeare.txt
+7	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 70	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 700	iliad.txt, jane.txt, shakespeare.txt
 7000000	moby.txt
@@ -639,7 +639,7 @@
 790	shakespeare.txt
 792	shakespeare.txt
 796	shakespeare.txt
-8	dummy.txt, iliad.txt, jane.txt, moby.txt, shakespeare.txt
+8	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 80	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 800	shakespeare.txt
 801	iliad.txt, jane.txt, moby.txt, shakespeare.txt
@@ -686,7 +686,7 @@
 892	shakespeare.txt
 896	shakespeare.txt
 8d	shakespeare.txt
-9	dummy.txt, iliad.txt, jane.txt, moby.txt, shakespeare.txt
+9	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 90	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 900	shakespeare.txt
 904	shakespeare.txt
@@ -725,7 +725,7 @@
 996	shakespeare.txt
 99712	iliad.txt, jane.txt, moby.txt
 99775	shakespeare.txt
-a	dummy.txt, iliad.txt, jane.txt, moby.txt, shakespeare.txt
+a	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 aaron	shakespeare.txt
 aarons	shakespeare.txt
 aback	moby.txt
@@ -3439,7 +3439,7 @@ azore	moby.txt
 azores	moby.txt
 azurd	shakespeare.txt
 azure	iliad.txt, jane.txt, moby.txt, shakespeare.txt
-b	dummy.txt, iliad.txt, jane.txt, moby.txt, shakespeare.txt
+b	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 ba	shakespeare.txt
 baa	shakespeare.txt
 babbld	shakespeare.txt
@@ -6159,7 +6159,7 @@ bythey	shakespeare.txt
 byward	moby.txt
 bywords	shakespeare.txt
 byzantium	iliad.txt, jane.txt, shakespeare.txt
-c	dummy.txt, iliad.txt, jane.txt, moby.txt, shakespeare.txt
+c	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 ca	shakespeare.txt
 cabaco	moby.txt
 cabacos	moby.txt
@@ -10189,7 +10189,7 @@ cythereas	shakespeare.txt
 cytorus	iliad.txt, jane.txt
 czar	moby.txt
 czarship	moby.txt
-d	dummy.txt, iliad.txt, jane.txt, shakespeare.txt
+d	iliad.txt, jane.txt, shakespeare.txt
 da	iliad.txt, jane.txt
 dabbled	shakespeare.txt
 dabolls	moby.txt
@@ -12854,7 +12854,7 @@ dysparis	iliad.txt, jane.txt
 dyspepsia	moby.txt
 dyspepsias	moby.txt
 dyspeptic	moby.txt
-e	dummy.txt, iliad.txt, jane.txt, moby.txt, shakespeare.txt
+e	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 each	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 eager	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 eagerly	iliad.txt, jane.txt, moby.txt, shakespeare.txt
@@ -14664,7 +14664,7 @@ eyglance	shakespeare.txt
 eyne	shakespeare.txt
 eyst	shakespeare.txt
 ezekiel	moby.txt
-f	dummy.txt, iliad.txt, jane.txt
+f	iliad.txt, jane.txt
 f3	iliad.txt, jane.txt, moby.txt
 fa	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 fab	iliad.txt, jane.txt
@@ -16787,7 +16787,7 @@ fyles	shakespeare.txt
 fyres	shakespeare.txt
 fyry	shakespeare.txt
 fyts	shakespeare.txt
-g	dummy.txt, shakespeare.txt
+g	shakespeare.txt
 gabble	shakespeare.txt
 gaberdine	shakespeare.txt
 gabled	moby.txt
@@ -18230,7 +18230,7 @@ gyrtones	iliad.txt, jane.txt
 gysthus	iliad.txt, jane.txt
 gyve	shakespeare.txt
 gyves	shakespeare.txt
-h	dummy.txt, iliad.txt, jane.txt, moby.txt, shakespeare.txt
+h	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 ha	moby.txt, shakespeare.txt
 haarlem	moby.txt
 habeat	moby.txt
@@ -20261,7 +20261,7 @@ hyrtacus	iliad.txt, jane.txt
 hyrtius	iliad.txt, jane.txt
 hyssop	shakespeare.txt
 hysterica	shakespeare.txt
-i	dummy.txt, iliad.txt, jane.txt, moby.txt, shakespeare.txt
+i	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 iachimo	shakespeare.txt
 iaculis	shakespeare.txt
 iade	shakespeare.txt
@@ -21938,7 +21938,7 @@ iwis	shakespeare.txt
 ix	iliad.txt, jane.txt, shakespeare.txt
 ixion	moby.txt
 ixions	iliad.txt, jane.txt
-j	dummy.txt, moby.txt
+j	moby.txt
 jabbering	moby.txt
 jacet	shakespeare.txt
 jack	moby.txt, shakespeare.txt
@@ -22340,7 +22340,7 @@ juttingout	shakespeare.txt
 jutty	shakespeare.txt
 juvenal	shakespeare.txt
 juvenile	iliad.txt, jane.txt
-k	dummy.txt, iliad.txt, jane.txt
+k	iliad.txt, jane.txt
 kai	iliad.txt, jane.txt
 kala	moby.txt
 kallinus	iliad.txt, jane.txt
@@ -22656,7 +22656,7 @@ krusensterns	moby.txt
 kumaioi	iliad.txt, jane.txt
 kusdaghy	iliad.txt, jane.txt
 kuster	iliad.txt, jane.txt
-l	dummy.txt, iliad.txt, jane.txt, moby.txt, shakespeare.txt
+l	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 la	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 laas	iliad.txt, jane.txt
 laban	shakespeare.txt
@@ -24321,7 +24321,7 @@ lysanders	shakespeare.txt
 lysimachus	shakespeare.txt
 lyst	shakespeare.txt
 lyvers	shakespeare.txt
-m	dummy.txt, iliad.txt, jane.txt, shakespeare.txt
+m	iliad.txt, jane.txt, shakespeare.txt
 ma	iliad.txt, jane.txt, shakespeare.txt
 maachah	moby.txt
 maam	moby.txt
@@ -26609,7 +26609,7 @@ mythological	iliad.txt, jane.txt
 mythologies	moby.txt
 mythology	iliad.txt, jane.txt
 mytilene	shakespeare.txt
-n	dummy.txt, iliad.txt, jane.txt, moby.txt
+n	iliad.txt, jane.txt, moby.txt
 nag	shakespeare.txt
 nags	shakespeare.txt
 naiad	iliad.txt, jane.txt
@@ -27464,7 +27464,7 @@ nymph	iliad.txt, jane.txt, shakespeare.txt
 nymphs	iliad.txt, jane.txt, shakespeare.txt
 nysa	iliad.txt, jane.txt
 nyssas	iliad.txt, jane.txt
-o	dummy.txt, iliad.txt, jane.txt, moby.txt, shakespeare.txt
+o	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 oahu	moby.txt
 oak	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 oakcleaving	shakespeare.txt
@@ -28688,7 +28688,7 @@ oyes	shakespeare.txt
 oyster	shakespeare.txt
 oysters	moby.txt
 oysterwench	shakespeare.txt
-p	dummy.txt, iliad.txt, jane.txt
+p	iliad.txt, jane.txt
 p10	iliad.txt, jane.txt
 p110	iliad.txt, jane.txt
 p124	iliad.txt, jane.txt
@@ -32096,7 +32096,6 @@ pythagorean	moby.txt
 pythian	iliad.txt, jane.txt
 pytho	iliad.txt, jane.txt
 pytus	iliad.txt, jane.txt
-q	dummy.txt
 quadrangle	shakespeare.txt
 quadrant	moby.txt
 quadruped	moby.txt
@@ -32335,7 +32334,7 @@ quoth	shakespeare.txt
 quotha	shakespeare.txt
 quotidian	shakespeare.txt
 quoting	iliad.txt, jane.txt
-r	dummy.txt, iliad.txt, jane.txt, shakespeare.txt
+r	iliad.txt, jane.txt, shakespeare.txt
 raal	moby.txt
 rabbins	moby.txt
 rabbit	shakespeare.txt
@@ -34385,7 +34384,7 @@ rycas	shakespeare.txt
 rye	shakespeare.txt
 ryestraw	shakespeare.txt
 rysing	shakespeare.txt
-s	dummy.txt, iliad.txt, jane.txt, moby.txt, shakespeare.txt
+s	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 sa	shakespeare.txt
 saba	shakespeare.txt
 sabbath	moby.txt, shakespeare.txt
@@ -39597,7 +39596,7 @@ systematized	moby.txt
 systematizer	moby.txt
 systemized	moby.txt
 systemwhich	iliad.txt, jane.txt
-t	dummy.txt, iliad.txt, jane.txt, moby.txt, shakespeare.txt
+t	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 ta	iliad.txt, jane.txt, shakespeare.txt
 taber	shakespeare.txt
 tabernacle	moby.txt
@@ -42180,7 +42179,7 @@ tytle	shakespeare.txt
 tytlers	shakespeare.txt
 tytles	shakespeare.txt
 tzetz	iliad.txt, jane.txt
-u	dummy.txt, moby.txt, shakespeare.txt
+u	moby.txt, shakespeare.txt
 uber	iliad.txt, jane.txt
 ubique	shakespeare.txt
 ubiquitous	moby.txt
@@ -43600,7 +43599,7 @@ uttermost	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 utters	shakespeare.txt
 uttrance	shakespeare.txt
 uttred	shakespeare.txt
-v	dummy.txt, iliad.txt, jane.txt, moby.txt, shakespeare.txt
+v	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 v04	iliad.txt, jane.txt
 va	iliad.txt, jane.txt, shakespeare.txt
 vacancies	moby.txt
@@ -44346,7 +44345,6 @@ vultures	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 vum	moby.txt
 vurther	shakespeare.txt
 vyge	moby.txt
-w	dummy.txt
 wad	moby.txt, shakespeare.txt
 waddled	shakespeare.txt
 wade	moby.txt, shakespeare.txt
@@ -46077,7 +46075,7 @@ wwwgutenbergorgdonate	shakespeare.txt
 wwwgutenbergorglicense	shakespeare.txt
 wye	shakespeare.txt
 wynning	shakespeare.txt
-x	dummy.txt, iliad.txt, jane.txt, moby.txt, shakespeare.txt
+x	iliad.txt, jane.txt, moby.txt, shakespeare.txt
 xanthippe	shakespeare.txt
 xanthus	iliad.txt, jane.txt
 xenophon	iliad.txt, jane.txt
@@ -46105,7 +46103,7 @@ xxxiii	iliad.txt, jane.txt
 xxxix	moby.txt
 xxxvi	iliad.txt, jane.txt
 xyland	iliad.txt, jane.txt
-y	dummy.txt, shakespeare.txt
+y	shakespeare.txt
 yale	moby.txt
 yankee	moby.txt
 yankees	moby.txt
@@ -46285,7 +46283,6 @@ yravished	shakespeare.txt
 yron	shakespeare.txt
 yrons	shakespeare.txt
 yslaked	shakespeare.txt
-z	dummy.txt
 zacynthus	iliad.txt, jane.txt
 zanies	shakespeare.txt
 zany	shakespeare.txt
