@@ -8,27 +8,21 @@ prev_key = None
 file_names = ''
 
 for line in sys.stdin:
-    word, files = line.strip().split()
+    word, file, count = line.strip().split()
 
     if prev_key is None:
         prev_key = word
-        file_names = files
+        file_names = file
         continue
 
     if prev_key == word:
-        multi_files = files.split(',')
-        for file in multi_files:
-            if file not in file_names:
-                file_names = file_names + ', ' + file
+        if file not in file_names:
+            file_names = file_names + ', ' + file
         continue
 
     if prev_key != word:
-        arr = file_names.split(', ')
-        arr.sort()
-        print('%s\t%s' % (prev_key, ', '.join(arr)))
+        print('%s\t%s' % (prev_key, file_names))
         prev_key = word
-        file_names = files
+        file_names = file
 
-arr = file_names.split(', ')
-arr.sort()
-print('%s\t%s' % (prev_key, ', '.join(arr)))
+print('%s\t%s' % (prev_key, file_names))

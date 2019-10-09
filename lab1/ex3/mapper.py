@@ -2,8 +2,7 @@
 # mapper.py
 # Question 3
 # Map-Reduce solution
-# It can be run using the standard hadoop mapper reducer configuration (reducer can also be used a combiner)
-# The intermediate key is the word
+# The intermediate key is the word and the file name, the value is empty
 
 import os
 import sys
@@ -20,4 +19,4 @@ for line in sys.stdin:
     file_name = splits[len(splits) - 1]
 
     for word in words:
-        print('%s\t%s' % (word, file_name))
+        print('%s %s\t%s' % (word, file_name, 1))

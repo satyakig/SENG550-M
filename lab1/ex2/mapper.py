@@ -16,7 +16,7 @@ for line in sys.stdin:
     words = list(filter(lambda word: len(word) > 0, words))
     words_len = len(words)
 
-    if words_len >= 2:
+    if words_len > 1:
         for index, word in enumerate(words):
             if index < words_len - 1:
                 print('%s %s\t%s' % (word, words[index + 1], 1))

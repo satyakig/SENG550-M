@@ -8,7 +8,7 @@ prev_key = None
 tot_count = 0
 
 for line in sys.stdin:
-    first, word = line.strip().split()
+    first, word = line.strip().split('.')
 
     if prev_key is None:
         prev_key = word
@@ -20,8 +20,8 @@ for line in sys.stdin:
         continue
 
     if prev_key != word:
-        print('%s\t\t%s' % (prev_key, tot_count))
+        print('%s\t%s' % (prev_key, tot_count))
         prev_key = word
         tot_count = 1
 
-print('%s\t\t%s' % (prev_key, tot_count))
+print('%s\t%s' % (prev_key, tot_count))
