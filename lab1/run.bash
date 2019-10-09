@@ -20,6 +20,8 @@ echo "jane.txt"
 hdfs dfs -copyFromLocal ./jane.txt /${LAB_DIR}/text/
 echo "moby.txt"
 hdfs dfs -copyFromLocal ./moby.txt /${LAB_DIR}/text/
+echo "dummy.txt"
+hdfs dfs -copyFromLocal ./dummy.txt /${LAB_DIR}/text/
 cd ..
 
 
@@ -64,7 +66,6 @@ ${HADOOP_RUN} \
   -input /${LAB_DIR}/text/ \
   -output /${LAB_DIR}/ex3/output \
   -mapper ./mapper.py \
-  -combiner ./reducer.py \
   -reducer ./reducer.py
 hadoop fs -getmerge /${LAB_DIR}/ex3/output/ results.txt
 echo -e "Partial output:"
