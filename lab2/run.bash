@@ -23,12 +23,11 @@ hdfs dfs -copyFromLocal input/matrix.txt /${LAB_DIR}/input/
 cd ex1/
 hdfs dfs -mkdir hdfs://$HOSTNAME:9000/${LAB_DIR}/ex1/
 ${HADOOP_RUN} \
-    -D mapreduce.job.reduces=2 \
-    -files ./mapper.py,./reducer.py \
+    -D mapreduce.job.reduces=0 \
+    -files ./mapper.py \
     -input /${LAB_DIR}/input/matrix.txt \
     -output /${LAB_DIR}/ex1/output \
-    -mapper ./mapper.py \
-    -reducer ./reducer.py
+    -mapper ./mapper.py
 hadoop fs -getmerge /${LAB_DIR}/ex1/output/ results.txt
 echo -e "Partial output:"
 tail results.txt
@@ -88,7 +87,7 @@ hdfs dfs -copyFromLocal input/retail.dat /${LAB_DIR}/input/
 cd ex3/
 hdfs dfs -mkdir hdfs://$HOSTNAME:9000/${LAB_DIR}/ex3/
 ${HADOOP_RUN} \
-    -D mapreduce.job.reduces=20 \
+    -D mapreduce.job.reduces=10 \
     -D stream.num.map.output.key.fields=2 \
     -D mapreduce.partition.keypartitioner.options=-k1,1 \
     -files ./mapper.py,./reducer.py \

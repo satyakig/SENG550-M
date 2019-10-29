@@ -2,9 +2,9 @@
 # mapper.py
 # Question 3
 # Map-Reduce solution
-# -D mapreduce.job.reduces = 20
-# -D stream.num.map.output.key.fields = 2
-# -D mapreduce.partition.keypartitioner.options = -k1, 1
+# -D mapreduce.job.reduces=10
+# -D stream.num.map.output.key.fields=2
+# -D mapreduce.partition.keypartitioner.options=-k1, 1
 # -partitioner org.apache.hadoop.mapred.lib.KeyFieldBasedPartitioner
 import sys
 import itertools
