@@ -6,9 +6,7 @@
 
    - The results for each question is in their respective folder in the `results.txt` file
 
-2. There is a `input` folder that contains all the files used for this assignment.
-
-3. There is a `run.bash` script that can be executed to setup hadoop and the hdfs for this assignment
+2. There is a `run.bash` script that can be executed to setup hadoop and the hdfs for this assignment
    and compute the results for **ALL** questions in this assignment.
 
    - Please copy the whole whole `lab2` folder onto master node and then you can just run the bash script
@@ -27,16 +25,16 @@
 #### Question 1 Sample Output
 
 ```
-10	99	513110
-9	99	826905
-8	99	711310
-7	99	640299
-6	99	402496
-5	99	223753
-4	99	623580
-3	99	225935
-2	99	851504
-1	99	853048
+5990	499	232340
+5991	499	109191
+5992	499	145199
+5993	499	505620
+5994	499	687622
+5995	499	135354
+5996	499	169801
+5997	499	310316
+5998	499	815010
+5999	499	362023
 ```
 
 #### Question 2 Sample Output

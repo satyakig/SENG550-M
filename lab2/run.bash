@@ -46,6 +46,7 @@ hdfs dfs -mkdir hdfs://$HOSTNAME:9000/${LAB_DIR}/ex2/
 ITERATION=1
 echo -e "Iteration #${ITERATION}:"
 ${HADOOP_RUN} \
+    -D mapreduce.job.reduces=2 \
     -files ./mapper.py,./reducer.py \
     -input /${LAB_DIR}/input/graph.txt \
     -output /${LAB_DIR}/ex2/output${ITERATION} \
@@ -60,6 +61,7 @@ echo -e "Iteration #$((ITERATION + 1)):"
 rm log.txt
 ITERATION=$((ITERATION + 1))
 ${HADOOP_RUN} \
+  -D mapreduce.job.reduces=2 \
   -files ./mapper.py,./reducer.py \
   -input /${LAB_DIR}/ex2/output$((ITERATION - 1))/ \
   -output /${LAB_DIR}/ex2/output${ITERATION} \
