@@ -9,6 +9,7 @@
 /.pnp
 .pnp.js
 *.deb
+**/.ipynb_checkpoints/**
 
 # zip
 *.tgz
@@ -19,6 +20,7 @@
 .eslintcache
 *.txt
 *.dat
+*.png
 
 # logs
 logs
